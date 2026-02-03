@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2ff;
+}
+
+/* Header */
+.header {
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: #0f172a;
+    height: calc(100vh - 120px);
+    padding-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+.sidebar a:hover {
+    background: #2563eb;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 25px;
+}
+
+/* Cards */
+.cards {
+    display:flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Progress */
+.progress-card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Footer */
+.footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile-icon a {
+    color:white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.profile-icon a:hover {
+    color: #93c5fd;
+}
+
+/* Small centered page */
+.small-container {
+    width: 5px;
+    margin: 1px auto;
+}
+
+.progress-bar {
+    width: 70%;   /* Adjust bar length here */
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px auto;
+}
+
+
+
+/* Medium size cards --- progress */
+.progress-card {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 70%;
+    text-align: left;
+}
+
