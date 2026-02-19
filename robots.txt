@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://22kq1a5415.github.io/Day-1/sitemap.xml
